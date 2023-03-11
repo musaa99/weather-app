@@ -1,9 +1,10 @@
+import Index from "./component";
 
 
 function App() {
   return (
-    <div className="App">
-      
+    <div >
+      <Index/>
     </div>
   );
 }
