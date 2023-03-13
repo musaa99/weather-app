@@ -4,7 +4,7 @@ import Vector from "../assets/Vector.svg";
 
 const DaysCard = () => {
   return (
-    <div className="flex">
+    <div className="grid grid-cols-7 pr-[200px] text-center items-center">
       <DayOverview img={Vector} day="Sun" Temp={23} />
       <DayOverview img={Vector} day="Mon" Temp={23} />
       <DayOverview img={Vector} day="Tue" Temp={23} />
