@@ -4,8 +4,8 @@ import AirQuality from "./airQuality";
 
 const AirMainComponent = () => {
   return (
-    <div className="bg-white m-8 py-2 pl-6 pr-4">
-      <div>
+    <div className="">
+      <div className="bg-white rounded-[10px] w-[530px] m-8 ">
         <AirQuality />
         <AirCard />
       </div>
