@@ -1,12 +1,17 @@
 import React from 'react'
 import Index from '../component'
-import AirQuality from '../component/AirComponent/airQuality'
+import AirMainComponent from '../component/AirComponent/airMainComponent'
 
 const Main = () => {
   return (
-    <div>
+    <div className=' h-[100%] m-4'>
         <Index/>
-        <AirQuality/>
+        <div>
+          <AirMainComponent/>  
+          
+      
+
+        </div>
     </div>
   )
 }
