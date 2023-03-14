@@ -5,8 +5,8 @@ import Aside from "../component/SideComponent/Aside";
 
 const Main = () => {
   return (
-    <div className=" flex gap-4 h-[100%] m-4">
-      <div className="w-[70%] bg-[red] mx-2">
+    <div className=" flex gap-4 m-4">
+      <div className="w-[70%]  mx-2">
         <Index />
         <div>
           <AirMainComponent />
