@@ -4,6 +4,7 @@ import React from "react";
 const SunriseAndSunset = ({weatherdata}) => {
   return (
 
+    <>
 <div className=" bg-[antiquewhite] rounded my-[10px] p-[30px]">
     <h1>{weatherdata.city} </h1>
 
@@ -13,6 +14,8 @@ const SunriseAndSunset = ({weatherdata}) => {
 
     </div>
 </div>
+    </>
+
   );
 };
 
