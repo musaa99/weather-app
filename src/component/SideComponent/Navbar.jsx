@@ -4,7 +4,6 @@ const Navbar = () => {
   return (
     <div>
          <div className="relative">
-                {/* <SearchIcon /> */}
                 <input
                   type="text"
                   placeholder="Search"
