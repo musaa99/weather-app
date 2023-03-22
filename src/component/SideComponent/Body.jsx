@@ -9,11 +9,11 @@ const Body = () => {
         <p>Today, 14 April</p>
         <h2>29 ^</h2>
         <h3>Sunny</h3>
-          <div className="  mb-2 grid grid-cols-2 px-8 divide-x">
+          <div className="  mb-2 grid grid-cols-2 px-[20px] divide-x">
             <h1>wind</h1>
             <h1>19km/hr</h1>
           </div>
-          <div className="grid grid-cols-2 px-8  divide-x">
+          <div className="grid grid-cols-2 px-[20px]  divide-x">
             <h1>wind</h1>
             <h1>19km/hr</h1>
           </div>
