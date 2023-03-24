@@ -7,11 +7,11 @@ const Body = () => {
       <div className="text-center grid  gap-[inherit]">
         <img className="m-auto" src={Vector} alt="" />
         <p>Today, 14 April</p>
-        <h2>29 ^</h2>
+        <h2 className="text-6xl font-bold">29 ^</h2>
         <h3>Sunny</h3>
           <div className="  mb-2 grid grid-cols-2 px-[20px] divide-x">
             <h1>wind</h1>
-            <h1>19km/hr</h1>
+            <h1 >19km/hr</h1>
           </div>
           <div className="grid grid-cols-2 px-[20px]  divide-x">
             <h1>wind</h1>
