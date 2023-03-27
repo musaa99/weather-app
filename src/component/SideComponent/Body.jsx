@@ -4,7 +4,7 @@ const Body = () => {
   return (
     <div className="bg-blue-400 rounded p-4 grid grid-cols-1 gap-8">
       <h1>Abuja</h1>
-      <div className="text-center grid  gap-[inherit]">
+      <div className="lg:text-center grid  gap-[inherit]">
         <img className="m-auto" src={Vector} alt="" />
         <p>Today, 14 April</p>
         <h2 className="text-6xl font-bold">29 ^</h2>

@@ -17,7 +17,7 @@ const GreetUser = ({ username}) => {
 	}
 
 	return (
-		<h2 >
+		<h2 className='text-[green]' >
 			{timeofday}, 
 			Musa.
 		</h2>

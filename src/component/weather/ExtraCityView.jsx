@@ -8,7 +8,7 @@ const ExtraCityView = () => {
           {weatherdata.map((x, index) => (
             <div
               key={index}
-              className="grid grid-cols-3 gap-[10px]  "
+              className="lg:grid lg:grid-cols-3 gap-[10px]  "
             >
               <div className="whitespace-nowrap ">{x.city}</div>
               <div className="whitespace-nowrap">{x.sunrise}</div>

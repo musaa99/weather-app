@@ -3,7 +3,7 @@ import DayOverview from "./days";
 
 const DaysCard = () => {
   return (
-    <div className="grid grid-cols-7 mr-[20px] text-center items-center">
+    <div className="lg:grid lg:grid-cols-7 lg:mr-[20px] text-center items-center">
       <DayOverview  day="Sun" Temp={23} />
       <DayOverview  day="Mon" Temp={23} />
       <DayOverview  day="Tue" Temp={23} />
