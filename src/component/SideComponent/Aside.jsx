@@ -5,7 +5,7 @@ import Navbar from './Navbar'
 
 const Aside = () => {
   return (
-    <div className='grid grid-cols-1 gap-2'>
+    <div className='lg:grid lg:grid-cols-1 gap-2'>
         <Navbar/>
         <Body/>
         <FooterCard/>
