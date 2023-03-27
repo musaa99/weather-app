@@ -22,13 +22,13 @@ const Index = () => {
   const year = currentDate.getFullYear();
   const formattedDate = `${dayOfWeek}, ${dayOfMonth} ${month} ${year}`;
   return (
-    <div className=" flex-1 w-full m-8 py-2 pl-6 pr-4">
+    <div className=" lg:flex-1 w-full m-8 py-2 pl-6 pr-4">
       <div className="">
         <p className="font-normal text-2xl text-bold text-blue-600">
          {formattedTime} 
         </p>
         <p>{formattedDate}</p>
-        <h1 className="font-normal text-2xl text-bold text-blue-600">
+        <h1 className="lg:font-normal lg:text-2xl lg:text-bold text-blue-600">
 
         <GreetUser/>
         </h1>
