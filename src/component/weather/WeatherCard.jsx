@@ -5,7 +5,7 @@ import SunriseAndSunset from './SunriseAndSunset'
 
 const WeatherCard = () => {
   return (
-      <div className='bg-white text-center h-[465px] w-full'>
+      <div className='bg-white text-center lg:h-[465px] lg:w-full'>
     <h1>Sunrise & Sunset</h1>
 
      <div className="p-[40px] ">
