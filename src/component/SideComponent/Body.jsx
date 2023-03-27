@@ -9,7 +9,7 @@ const Body = () => {
         <p>Today, 14 April</p>
         <h2 className="text-6xl font-bold">29 ^</h2>
         <h3>Sunny</h3>
-          <div className="  mb-2 grid grid-cols-2 px-[20px] divide-x">
+          <div className="  mb-2 grid grid-cols-2 px-[21px] divide-x">
             <h1>wind</h1>
             <h1 >19km/hr</h1>
           </div>
