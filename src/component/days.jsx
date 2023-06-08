@@ -7,9 +7,7 @@ const DayOverview = (props) => {
   return (
      
       <div className="  bg-white shadow rounded-[20px] p-[6px] text-center m-[2px] items-center text-black font-semibold">
-        <h1 className="w-[full] m-auto">
-        <Rain  />
-        </h1>
+        <Rain   />
         <h6 className="text-2xl"> {day}</h6>
         <h4>{Temp}</h4>
         
